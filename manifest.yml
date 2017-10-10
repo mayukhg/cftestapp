@@ -1,0 +1,6 @@
+name: CFTestApp
+path: target/cftest-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+services:
+  - mypostgresql
